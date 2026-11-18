@@ -1,6 +1,6 @@
 package com.nexusplus.app;
 
-import android.app.Activity;
+import androidx.activity.ComponentActivity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -19,7 +19,7 @@ import androidx.media3.common.MediaItem;
 import androidx.media3.exoplayer.ExoPlayer;
 import androidx.media3.ui.PlayerView;
 
-public class MainActivity extends Activity {
+public class MainActivity extends ComponentActivity {
     private final int navy = Color.rgb(8, 13, 28);
     private final int panel = Color.rgb(17, 29, 52);
     private final int blue = Color.rgb(86, 185, 255);
